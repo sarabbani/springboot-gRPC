@@ -1,0 +1,11 @@
+#spring:
+#  application:
+#    name: gRPC-server-app
+#management:
+#  server:
+#    port:9092 # to avoid collisions with client app
+#server:
+#  port:-1 # this service doest not expose a REST API, just gRPC
+#grpc:
+#  server:
+#    enable-keep-alive: true
